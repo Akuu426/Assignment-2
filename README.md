@@ -1,2 +1,2 @@
 # Assignment-2
-Altschool second offical practice assignment
+Altschool second official practice assignment
