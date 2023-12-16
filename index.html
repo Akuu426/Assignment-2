@@ -12,47 +12,51 @@
          <div class="sign_up">
              <form action="index.html" method="post">
                  <div class="details">
-                    <label for="first_name">First Name
+                    <label for="first_name">First Name <br>
                         <input type="text" id="first_name" placeholder="Tolu" name="first_name" required>
                     </label>
-                    <label for="last_name">Last Name 
+                    <label for="last_name">Last Name <br>
                         <input type="text" id="last_name" name="last_name" required>
                     </label>
                  </div>  
                  <div class="details">
-                    <label for="gender">Gender
+                    <label for="gender">Gender <br>
                        <select name="gender" id="gender">
                         <option value="">select here</option>
                         <option value="male">male</option>
                         <option value="female">female</option>
                        </select>
                     </label>
-                    <label for="date_of_birth">Date of Birth
-                        <input type="text" id="date_of_birth">
+                    <label for="date_of_birth">Date of Birth <br>
+                        <input type="date" id="date_of_birth">
                     </label>
                  </div>
                  <div class="details">
-                    <label for="weight">weight (KG)
-                        <input type="text" id="weight" placeholder="Enter Weight">
+                    <label for="weight">Weight (KG) <br>
+                        <input type="text" id="weight" placeholder="Enter weight">
                     </label>
-                    <label for="height">Height (CM)
-                        <input type="text" id="height" placeholder="Enter height here...">
+                    <label for="height">Height (CM) <br>
+                        <input type="text" id="height" placeholder="Enter height here..">
                     </label>
                  </div> 
-                 <div>
+                 <div class="activity" id="test">
                     <label for="activity_level">Activity Level <br>
                         <select name="activity_level" id="activity_level">
                             <option value="">select here</option>
                         </select>
                     </label>
-                 </div> 
-                 <div>
-                    <label for="password">Password <br>
-                        <input type="text" id="password">
+                    <label for="password" id="password">Password <br>
+                        <input type="password" id="password">
+                        <span><img src="./Assests/show.svg" alt=""></span>
                     </label>
                  </div> 
-                  <button>Register</button>
-                  <p>By clicking Register, you agree to our Terms of Use and our Privacy Policy</p>
+                 <!-- <div id="test">
+                    <label for="password">Password 
+                        <input type="text" id="password">
+                    </label>
+                 </div>  -->
+                  <button type="submit">Register</button>
+                  <p>By clicking Register, you agree to our <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a></p>
              </form>
             </div>   
      </div>
