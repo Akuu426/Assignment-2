@@ -92,19 +92,22 @@ a {
   color: #2ec4b6;
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   html,
   body {
     display: flex;
     flex-direction: column;
+    height: 100%;
     padding: 1rem;
   }
   .container {
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
 
-  .logo {
-    order: -1;
+  .details {
+    display: flex;
+    flex-direction: column;
   }
 }
